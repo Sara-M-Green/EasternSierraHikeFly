@@ -128,50 +128,6 @@
 
     </div>
 
-    <!-- <a id="flight-info">
-        <section class="my-4">
-            <div class="py-4">
-                <h2 class="text-center">Fly With Us!</h2>
-                <div class="container-fluid">
-                    <div class="row">
-
-                        <div class="card flight" id="sherwins" style="width: 18rem;">
-                            <img class="card-img-top" src="images/img2.JPG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Hike the Sherwins</h5>
-                                <p class="card-text flight-card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#contact" class="btn btn-primary">Book Now!</a>
-                            </div>
-                        </div>
-
-                            
-                        <div class="card flight" id="mcgee" style="width: 18rem;">
-                            <img class="card-img-top" src="images/img3.JPG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">McGee Mountain</h5>
-                                <p class="card-text flight-card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#contact" class="btn btn-primary">Book Now!</a>
-                            </div>
-                        </div>
-
-                        <div class="card flight" id="convict" style="width: 18rem;">
-                            <img class="card-img-top" src="images/img4.JPG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Convict Canyon</h5>
-                                <p class="card-text flight-card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#contact" class="btn btn-primary">Book Now!</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    </a> -->
-
-    
-
     <a id="contact">
         <section class="my-4">
             <div class="py-4">
@@ -192,10 +148,6 @@
                     <div class="form-group">
                         <label>Phone Number:</label>
                         <input type="text" name="number" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Message:</label>
-                        <input type="text" name="message" class="form-control message-input">
                     </div>
                     <button type="submit" class="btn contact-btn">Submit</button>
                 </form>
