@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    font-family: Lora;
+    color: #4a4a4a;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 75px;
+}
+
+.pilots {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.pilots h3 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.flight {
+    margin: 45px;
+}
+
+form {
+    padding-bottom: 200px;
+}
+
+.meet-us-photo {
+    max-width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.meet-us-text {
+    left: 75%;
+    background-color: rgb(233 232 224);
+    color: black;
+    position: absolute;
+    top: 25%;
+    max-width: 400px;
+    max-height: 300px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.flex-item {
+    flex: auto;
+    width: 50%;
+    font-family: Lora;
+    color: #4a4a4a;
+    max-width: 800px;
+}
+
+.head-item {
+    height: 750px;
+}
+
+.flex-item h2 {
+    font-size: 1.5em;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-sarah {
+    padding: 15px;
+}
+
+.sarah-heading {
+    padding: 15px;
+}
+
+.head-left {
+    background-color: rgb(233 232 224);
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.meet-us {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.meet-us-container, .meet-us-container-reverse {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.sarah-left {
+    background-color: #B3C6C0;
+}
+
+.meet-us-item {
+    width: 50%;
+    margin: 10px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.max-w-100 {
+    max-width: 100%;
+}
+
+.head-right {
+    background-image: url('../images/IMG_8226.jpg');
+    background-size: cover;
+    background-position: center;    
+}
+
+.tandem-photo {
+    max-width: 100%;
+}
+
+.head-text {
+    align-self: center;
+}
+
+.logo {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.head-btn {
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+
+.head-btn:hover {
+    color: rgb(233 232 224);
+    background-color: #4a4a4a;
+}
+
+.contact-btn:hover {
+    background-color: #586D68;
+    color: white;
+}
+
+.contact-btn {
+    background-color: #B3C6C0;
+    color: white;
+}
+
+.message-input {
+    height: 200px;
+}
+
+.our-flights {
+    background-color: #E8E8E0;
+    margin-top: 75px;
+    padding: 25px;
+}
+
+.flight-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    padding: 0;
+    max-width: 250px;
+}
+
+.card-container > h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.flight-photo {
+    border-radius: 5px 5px 0 0;
+    max-width: 250px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .flex-container {
+        padding: 0;
+    }
+
+    .left {
+        padding: 40px
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .flex-container, .flight-container {
+        flex-direction: column;
+        padding-top: 25px
+    }
+
+    .card-container, .flight-photo {
+        max-width: none;
+    }
+
+    .head-left, .head-right {
+        width: 100%;
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 1011px){
+    .meet-us-container {
+        flex-direction: column;
+        
+    }
+
+    .meet-us-container-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .meet-us-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .meet-us {
+        padding: 0;
+    }
+}
+
+
+
+
+
